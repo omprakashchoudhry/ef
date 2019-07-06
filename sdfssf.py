@@ -1,7 +1,7 @@
 N=int(input()) 
 sum=0
 num=N
-while num>0:
+while num<100000:
     dig=num%10
     sum+=dig**3
     num//=10
